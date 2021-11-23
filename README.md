@@ -15,5 +15,5 @@ gem 'whenever-runner', github: 'mlogix/whenever-runner'
 
 And then execute:
 
-    $ bundle
+    $ bundle exec whenever-runner start --file config/schedule.rb
 
