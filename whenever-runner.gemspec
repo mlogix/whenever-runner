@@ -33,7 +33,7 @@ Gem::Specification.new do |spec|
   spec.executables   = spec.files.grep(%r{^exe/}) { |f| File.basename(f) }
   spec.require_paths = ["lib"]
 
-  spec.add_dependency "whenever", ">= 1.0.0"
+  spec.add_dependency "whenever", ">= 0.10.0"
   spec.add_dependency "daemons", ">= 1.2"
   spec.add_dependency "fugit", ">= 1.4"
 
